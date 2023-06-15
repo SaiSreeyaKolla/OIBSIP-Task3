@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>To-Do WebApp</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-Texh+1PYwU9V0/DiLdOxgkqQv2jcAZ3ZLzH2T+6RR2rl9UymCJr0Ld83A36J6H2VzU+6MJjgT8gVUq65ynXe6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>A Basic To-Do WebApp</h1>
+
+      <div class="column">
+        <h2>Things to Do</h2>
+        <div id="taskContainer">
+          <input type="text" id="taskInput" placeholder="Enter a task" />
+          <button id="addButton">Add</button>
+        </div>
+        <ul id="taskList">
+          <!-- Tasks to be done will be dynamically added here -->
+        </ul>
+      </div>
+
+      <div class="column">
+        <h2>Accomplishments</h2>
+        <ul id="completedTaskList">
+          <!-- Completed tasks will be dynamically added here -->
+        </ul>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
